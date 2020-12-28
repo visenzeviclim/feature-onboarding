@@ -1,0 +1,28 @@
+ext{
+    SpringBoot_Group        = 'org.springframework.boot'
+    SpringBoot_Name_JPA     = 'spring-boot-starter-data-jpa'
+    SpringBoot_Name_Test    = 'spring-boot-starter-test'
+    SpringBoot_Name_Web     = 'spring-boot-starter-web'
+    SpringBoot_Version      = '2.4.1'
+
+    h2Database_Group        = 'com.h2database'
+    h2Database_Name         = 'h2'
+    h2Database_Version      = '1.4.200'
+
+    libs = [
+            main: [
+                    spring: [
+                            dataJPA: "${SpringBoot_Group}:${SpringBoot_Name_JPA}:${SpringBoot_Version}",
+                            web:"${SpringBoot_Group}:${SpringBoot_Name_Web}:${SpringBoot_Version}"
+                    ],
+                    database:[
+                            h2:"${h2Database_Group}:${h2Database_Name}:${h2Database_Version}"
+                    ]
+            ],
+            test: [
+                    spring:[
+                            test: "${SpringBoot_Group}:${SpringBoot_Name_Test}:${SpringBoot_Version}"
+                    ]
+            ]
+    ]
+}

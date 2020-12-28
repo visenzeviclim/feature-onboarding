@@ -1,0 +1,20 @@
+com/visenze/onboard/application/StartApplication.java
+ com.visenze.onboard.application.StartApplication
+com/visenze/onboard/application/controller/AppConfiguration.java
+ com.visenze.onboard.application.controller.AppConfiguration
+com/visenze/onboard/application/model/Item.java
+ com.visenze.onboard.application.model.Item
+com/visenze/onboard/application/controller/ItemRepoController.java
+ com.visenze.onboard.application.controller.ItemRepoController
+com/visenze/onboard/application/repository/ItemRepo.java
+ com.visenze.onboard.application.repository.ItemRepo
+com/visenze/onboard/application/service/ItemRepoService.java
+ com.visenze.onboard.application.service.ItemRepoService
+com/visenze/onboard/application/service/BasketRepoService.java
+ com.visenze.onboard.application.service.BasketRepoService
+com/visenze/onboard/application/model/Basket.java
+ com.visenze.onboard.application.model.Basket
+com/visenze/onboard/application/repository/BasketRepo.java
+ com.visenze.onboard.application.repository.BasketRepo
+com/visenze/onboard/application/controller/HusbandController.java
+ com.visenze.onboard.application.controller.HusbandController

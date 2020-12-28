@@ -1,0 +1,25 @@
+defaultTasks 'clean','run','aggregate'
+
+repositories {
+    mavenLocal()
+    jcenter()
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply from: "$rootDir/gradle/library.gradle"
+
+dependencies {
+    compile libs.main.spring.dataJPA,
+            libs.main.spring.web,
+            libs.main.database.h2
+
+    testCompile libs.test.spring.test
+}
+
+test {
+    useJUnitPlatform()
+}
