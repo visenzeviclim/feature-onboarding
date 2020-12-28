@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS Item;
 DROP TABLE IF EXISTS Basket;
-
+-- New Test
 CREATE TABLE Item(
     id INT PRIMARY KEY,
     itemName VARCHAR(250) NOT NULL,
